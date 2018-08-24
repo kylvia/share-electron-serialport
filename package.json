@@ -1,0 +1,13 @@
+{
+  "name": "share-electron-serialport-package",
+  "version": "0.0.1",
+  "description": "serialport in electron",
+  "scripts": {
+    "package": "electron-packager ./app Synpower_ALC --win --out Synpower_ALC --arch=x64 --electron--version 2.0.8 --overwrite --icon=./app/public/img/bitbug_favicon.ico --ignore=node_modules"
+  },
+  "author": "hh.todd@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^12.1.0"
+  }
+}
